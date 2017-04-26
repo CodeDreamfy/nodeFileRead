@@ -64,9 +64,9 @@ $(function(){
 
 	*/
 
-	$.get('/send', function(res){
-		console.log(res)
+	$.get('/send', {
+		type: 'YB0F2'
+	}, function(res){
+		console.log(String.fromCharCode(...res.data['21NTb'].split(',')))
 	})
 })
-
-
