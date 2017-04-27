@@ -23,12 +23,12 @@ function configFilter(name,cb){
         var n = name.split('/');
         n = (n[n.length-1]).split('.')[0]
         o[n] = content;
-        cb({
-          msg: 'ok',
-          data: o,
-          code: 200
-        })
       }
+      cb({
+        msg: 'ok',
+        data: o,
+        code: 200
+      })
     });
   })
 

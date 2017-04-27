@@ -63,10 +63,13 @@ $(function(){
 	oReq.send(null);
 
 	*/
+	/*
+		test
 
 	$.get('/send', {
 		type: 'YB0F2'
 	}, function(res){
-		console.log(String.fromCharCode(...res.data['21NTb'].split(',')))
+		console.log(res.data)
 	})
+	**/
 })
